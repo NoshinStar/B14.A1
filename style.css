@@ -199,6 +199,42 @@
   border: none;
 }
 
+.hackathon {
+  background-color: #19284b;;
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hackathon h2 {
+  font-size: 32px;
+  margin-bottom: 12px;
+}
+
+.hackathon p {
+  color: #ccc;
+  max-width: 500px;
+  margin: 0 auto 40px auto;
+}
+
+.hackathon-stats {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  margin-bottom: 40px;
+}
+
+.stat-number {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+
+.stat-label {
+  color: #ccc;
+  font-size: 14px;
+}
+
 .footer{
   padding: 40px 60px;
 }
