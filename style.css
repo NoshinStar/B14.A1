@@ -38,3 +38,27 @@
   font-weight: bold;
   cursor: pointer;
 }
+
+
+.hero {
+  background-image: url('./assets/banner.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 100px 20px;
+  text-align: center;
+  position:relative;
+}
+
+.hero-content h1 {
+  color: white;
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  color: white;
+  font-size: 16px;
+  max-width: 600px;
+  margin: 0 auto 30px auto;
+  line-height: 1.6;
+}
