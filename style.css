@@ -46,7 +46,7 @@
   background-position: center;
   padding: 100px 20px;
   text-align: center;
-  position:relative;
+  position: relative;
 }
 
 .hero-content h1 {
@@ -112,4 +112,89 @@
   padding-bottom: 16px;
   color: #666;
   font-size: 14px;
+}
+
+.pricing {
+  text-align: center;
+  padding: 80px 80px;
+}
+
+.pricing h2{
+  font-size: 40px;
+}
+
+.subtitle{
+  color: #666;
+  margin-bottom: 40px;
+}
+
+.price-grid{
+  display:flex;
+  justify-content: center;
+  gap:40px;
+}
+
+.price-card{
+  border: 1px solid #eee;
+  border-radius: 8px;
+  padding: 30px;
+  width: 250px;
+  text-align: left;
+}
+
+.price-card.featured{
+  background-color: #19284b;
+  color: white;
+}
+
+.plan-name{
+  font-size:13px;
+  color: white;
+}
+
+.price-card.featured .plan-name{
+  color: #ccc;
+}
+
+.price{
+  font-size: 30px;
+  font-weight: bold;
+  margin: 5px 5px;
+}
+
+.per{
+  color: #666;
+  font-size:15px;
+  margin-bottom:20px;
+}
+
+.price-card.featured .per{
+  color: #ccc;
+}
+
+.price-card ul{
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.price-card ol{
+  padding-left: 15px;
+  margin-bottom: 10px;
+}
+
+.price-card button{
+  width: 100%;
+  padding: 12px;
+  border-radius: 7px;
+  border: 1px solid #3872ee;
+  background: white;
+  color: #3872ee;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.price-card.featured button{
+  background: #3872ee;
+  color: white;
+  border:none;
 }
