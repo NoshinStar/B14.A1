@@ -119,22 +119,22 @@
   padding: 80px 80px;
 }
 
-.pricing h2{
+.pricing h2 {
   font-size: 40px;
 }
 
-.subtitle{
+.subtitle {
   color: #666;
   margin-bottom: 40px;
 }
 
-.pricing-grid{
-  display:flex;
+.pricing-grid {
+  display: flex;
   justify-content: center;
-  gap:30px;
+  gap: 30px;
 }
 
-.price-card{
+.price-card {
   border: 1px solid #eee;
   border-radius: 8px;
   padding: 30px;
@@ -142,47 +142,47 @@
   text-align: left;
 }
 
-.price-card.featured{
+.price-card.featured {
   background-color: #19284b;
   color: white;
 }
 
-.plan-name{
-  font-size:13px;
+.plan-name {
+  font-size: 13px;
   color: #666;
 }
 
-.price-card.featured .plan-name{
+.price-card.featured .plan-name {
   color: #ccc;
 }
 
-.price{
+.price {
   font-size: 30px;
   font-weight: bold;
   margin: 5px 5px;
 }
 
-.per{
+.per {
   color: #666;
-  font-size:15px;
-  margin-bottom:20px;
+  font-size: 15px;
+  margin-bottom: 20px;
 }
 
-.price-card.featured .per{
+.price-card.featured .per {
   color: #ccc;
 }
 
-.price-card ul{
+.price-card ul {
   padding-left: 20px;
   margin-bottom: 20px;
 }
 
-.price-card ol{
+.price-card ol {
   padding-left: 15px;
   margin-bottom: 10px;
 }
 
-.price-card button{
+.price-card button {
   width: 100%;
   padding: 12px;
   border-radius: 7px;
@@ -193,8 +193,52 @@
   cursor: pointer;
 }
 
-.price-card.featured button{
+.price-card.featured button {
   background: #3872ee;
   color: white;
+  border: none;
+}
+
+.footer{
+  padding: 40px 60px;
+}
+
+.footer-top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.footer-logo{
+  display:flex;
+  align-items: center;
+  gap:10px;
+  font-weight: bold;
+}
+
+.footer-logo img{
+  height: 30px;
+}
+
+.footer-socials{
+  display: flex;
+  gap: 16px;
+}
+
+.footer-socials img{
+  height: 20px;
+}
+
+hr{
   border:none;
+  border-top: 1px solid #eee;
+  margin-bottom: 20px;
+}
+
+.copyright{
+  text-align: center;
+  color: #666;
+  font-size: 15px;
+
 }
