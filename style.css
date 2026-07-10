@@ -128,10 +128,10 @@
   margin-bottom: 40px;
 }
 
-.price-grid{
+.pricing-grid{
   display:flex;
   justify-content: center;
-  gap:40px;
+  gap:30px;
 }
 
 .price-card{
@@ -149,7 +149,7 @@
 
 .plan-name{
   font-size:13px;
-  color: white;
+  color: #666;
 }
 
 .price-card.featured .plan-name{
