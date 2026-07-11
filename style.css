@@ -1,11 +1,16 @@
-*{
-  margin:0;
+* {
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body{
+body {
   font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 .navbar {
@@ -75,8 +80,7 @@ body{
 
 .speakers {
   text-align: center;
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding: 80px 60px;
 }
 
 .speakers h2 {
@@ -94,7 +98,7 @@ body{
   text-align: left;
   border: 1px solid #eeeeee;
   border-radius: 8px;
-  overflow:hidden;
+  overflow: hidden;
 }
 
 .speaker-card img {
@@ -143,29 +147,38 @@ body{
 .pricing-grid {
   display: flex;
   justify-content: center;
-  gap: 30px;
+  gap: 40px;
 }
 
 .price-card {
+  background-color: #f8f9fa;
   border: 1px solid #eee;
   border-radius: 8px;
-  padding: 30px;
-  width: 250px;
+  padding: 50px;
+  width: 300px;
   text-align: left;
 }
 
 .price-card.featured {
   background-color: #19284b;
-  color: white;
+  color: rgb(215, 213, 213);
+}
+
+.price-card li::marker {
+  color: #2563eb;
+}
+
+.price-card.featured li::marker {
+  color: #93c5fd;
 }
 
 .plan-name {
   font-size: 13px;
-  color: #666;
+  color: #666666;
 }
 
 .price-card.featured .plan-name {
-  color: #ccc;
+  color: #93c5fd;
 }
 
 .price {
@@ -211,9 +224,9 @@ body{
   border: none;
 }
 
-.price-card .btn-neutral{
+.price-card .btn-neutral {
   width: 100%;
-  padding:12px;
+  padding: 12px;
   border-radius: 7px;
   border: 1px solid #999;
   background: white;
@@ -249,14 +262,16 @@ body{
 }
 
 .stat-number {
-  font-size: 28px;
+  font-size: 30px;
   font-weight: bold;
   margin-bottom: 2px;
+  margin: 0;
 }
 
 .stat-label {
   color: #ccc;
-  font-size: 14px;
+  font-size: 15px;
+  margin: 0;
 }
 
 .footer {
@@ -287,13 +302,17 @@ body{
 }
 
 .footer-socials img {
-  height: 20px;
+  height: 30px;
 }
 
 hr {
   border: none;
   border-top: 1px solid #eee;
   margin-bottom: 20px;
+}
+
+.price-card.featured hr{
+  border-top: 1px solid #495668;
 }
 
 .copyright {
