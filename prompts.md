@@ -1,3 +1,1 @@
-git add .
-git commit -m "Fix CSS link"
-git push origin main
+Add a Hackathon Track section to the DevConf 2026 landing page. Use a dark navy background. Include the heading "Build at DevConf: 24-Hour Hackathon", a short description, 3 stat boxes (Prize Pool: $10,000, Duration: 24 Hours, Teams: Up to 4 people), and a "Register Your Team" button.

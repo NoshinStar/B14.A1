@@ -1,3 +1,13 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -81,8 +91,10 @@
 }
 
 .speaker-card {
+  text-align: left;
   border: 1px solid #eeeeee;
   border-radius: 8px;
+  overflow:hidden;
 }
 
 .speaker-card img {
@@ -199,8 +211,20 @@
   border: none;
 }
 
+.price-card .btn-neutral{
+  width: 100%;
+  padding:12px;
+  border-radius: 7px;
+  border: 1px solid #999;
+  background: white;
+  color: #333;
+  font-weight: bold;
+  cursor: pointer;
+}
+
 .hackathon {
-  background-color: #19284b;;
+  background-color: #19284b;
+  ;
   color: white;
   text-align: center;
   padding: 80px 20px;
@@ -235,44 +259,44 @@
   font-size: 14px;
 }
 
-.footer{
+.footer {
   padding: 40px 60px;
 }
 
-.footer-top{
+.footer-top {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-bottom: 20px;
 }
 
-.footer-logo{
-  display:flex;
+.footer-logo {
+  display: flex;
   align-items: center;
-  gap:10px;
+  gap: 10px;
   font-weight: bold;
 }
 
-.footer-logo img{
+.footer-logo img {
   height: 30px;
 }
 
-.footer-socials{
+.footer-socials {
   display: flex;
   gap: 16px;
 }
 
-.footer-socials img{
+.footer-socials img {
   height: 20px;
 }
 
-hr{
-  border:none;
+hr {
+  border: none;
   border-top: 1px solid #eee;
   margin-bottom: 20px;
 }
 
-.copyright{
+.copyright {
   text-align: center;
   color: #666;
   font-size: 15px;
