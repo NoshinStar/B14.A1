@@ -11,7 +11,6 @@ The `prompts.md` file in this repository documents the exact prompt used to gene
 🔗 https://noshinstar.github.io/B14.A1/
 
 
-
 ## 🌟 Main Features
 
 - **Responsive Navbar** — Logo, nav links, and a call-to-action button
